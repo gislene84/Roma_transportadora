@@ -1,0 +1,43 @@
+*{
+    margin: 0;/*espaçamento na largura do lado de fora do elementos*/
+    padding: 0;/*espaçamento na altura do lado de dentro dos elementos*/
+    box-sizing: border-box;/*os valores do padding não vai influenciar no tamanho do elemneto*/
+    font-family: 'Roboto', sans-serif;/*estilo da fonte*/
+}
+.center{
+    margin: 0 auto;/*margem cima/baixo de 0, auto centraliza a margem*/ 
+    padding: 0 5%;/*preenchimento na altura, 0 cima/baixo 2% direita/esquerda*/ 
+    
+}
+.clear{
+    clear: both;/*É uma palavra-chave que indica que o elemento será movido para baixo para limpar os elementos flutuantes do lado esquerdo e direito.*/
+}
+section.topo{
+    background-image: linear-gradient(114deg, #250e8a,#00f9f7);/*transição das cores se faz segundo um eixo (linha reta) que possui um sentido (por exemplo: horizontal) e uma direção (por exemplo: da esquerda para a direita)*/
+    padding-top: 40px;/*preenchimento na altura 40px cima*/
+    padding-bottom: 80px;/*Define o preenchimento de fundo de um elemento*/
+}
+.logo{
+    float: left;/*O elemento flutua à esquerda de seu contêiner*/
+}
+.menu-desktop{
+    float: right;/*O elemento flutua à direita de seu contêiner*/
+}
+.menu-desktop li{
+    display: inline-block;/*faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha.*/
+    margin: 0 5px;/*margem cima/baixo de 0, direita/esquerda 12*/
+}
+.menu-desktop a{
+    text-decoration: none;/*retirar o traço debaixo da palavra do menu*/
+    color: white;/*cor da fonte*/
+    opacity: 0.6;/*opacidade da cor da fonte*/
+}
+.menu-desktop a:hover{/*muda a cor quando o mouse é colocado em cima da palavra do menu*/
+    opacity: 1;/*opacidade da cor da fonte*/
+} 
+section.hero-1{
+    background-image: url('./img/entrega.jpg');
+}
+.imagem-principal{
+    background-repeat: no-repeat;
+}
