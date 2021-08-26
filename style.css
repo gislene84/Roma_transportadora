@@ -36,8 +36,29 @@ section.topo{
     opacity: 1;/*opacidade da cor da fonte*/
 } 
 section.hero-1{
-    background-image: url('./img/entrega.jpg');
+    background-image: url(./img/entregas2.jpg);
+    background-size: cover;/*A imagem é renderizada, preservando sua proporção intrínseca, com o maior tamanho contido, ou cobrindo a área do elemento pai. Se a imagem não tiver uma proporção intrínseca, então ela é renderizada no tamanho da área do elemento pai*/
+    background-repeat: no-repeat;/*a imagem não será repetida*/
+    background-position: center;/*a imagem será centralizada*/
+    height: 700px;/*altura da imagem*/
+    display: flex;/*alinhar um item na ponta esquerda e outro na direita*/
+    justify-content: center;/* Alinha os itens ao centro do container.*/
+    align-items: center;/*centarlizar o elemento*/
+    
 }
-.imagem-principal{
-    background-repeat: no-repeat;
+.container{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.container h1{
+    padding: 20px;
+    font-size: 50px;
+}
+.container h2{
+    color: black;
+    padding-bottom: 80px;/*Define o preenchimento de fundo de um elemento*/
+}
+button .container{
+    background-color: blue;
 }

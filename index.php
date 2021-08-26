@@ -35,7 +35,7 @@
                 <h1>Calcule e contrate seu frete, totalmente online!</h1>
                 <h2>Temos o melhor preço, praticidade e comodidade para enviar suas mercadorias de forma simples e rápida.</h2>
                 <div class="imagem-principal"></div><!--imagem-principal-->
-                <button><a href="sobre.html"></a>COTE AGORA</button>
+                <button><a href="cote.php"></a>COTE AGORA</button>
             </div>
         </section><!--hero-1-->
 </body>
